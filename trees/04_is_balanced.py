@@ -7,6 +7,9 @@ class TreeNode:
         self.right = right
 
 class Solution:
+    # Time  — O(n): every node visited exactly once via DFS
+    # Space — O(h): recursion call stack depth equals tree height h
+    # O(log n) balanced tree, O(n) worst case skewed tree
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
         def dfs(curr):
             if not curr: return[True, 0]
