@@ -9,6 +9,9 @@ class TreeNode:
         self.right = right
 
 class Solution:
+    # Time complexity - O(n): every node in the tree is visited once via DFS
+    # Space complexity — O(h): recursion call stack depth equals tree height h
+    # O(log n) balanced tree, O(n) worst case skewed tree
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
         self.res = 0
         def dfs(curr):
