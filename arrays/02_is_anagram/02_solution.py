@@ -1,4 +1,5 @@
-# this is of time complexity O(n) and space complexity O(1)
+# this is of time complexity O(n) looping through both strings
+# and space complexity O(1) for declaring two dicts
 
 def isAnagram(s: str, t: str) -> bool:
     if len(s) != len(t):
