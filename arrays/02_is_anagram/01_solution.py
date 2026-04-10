@@ -1,6 +1,6 @@
 
-## this has time complexity O(n) and 
-## space complexity O(n) because of the two dictionaries
+## Time complexity: O(n) 
+## space complexity: O(n) because of the two dictionaries
 from collections import Counter
 def isAnagram(s: str, t: str) -> bool:
    return Counter(s) == Counter(t)
