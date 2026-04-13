@@ -50,4 +50,4 @@ if __name__ == "__main__":
     subRoot = TreeNode(4)
     subRoot.left = TreeNode(1)
     subRoot.right = TreeNode(2)
-    print(s.isSubtree(root, subRoot)) # -> False
+    print(s.isSubtree(root, subRoot)) # ->  False
